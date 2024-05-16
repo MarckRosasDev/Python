@@ -6,3 +6,5 @@ print('Este es un tercer mensaje.', end='')
 print()
 
 print('Este', 'es', 'un', 'cuarto', 'mensaje', sep='-')
+
+print('Hola', 'mundo', 1.6, (1,2,3))
