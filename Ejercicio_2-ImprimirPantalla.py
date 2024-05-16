@@ -8,3 +8,5 @@ print()
 print('Este', 'es', 'un', 'cuarto', 'mensaje', sep='-')
 
 print('Hola', 'mundo', 1.6, (1,2,3))
+
+print('{} poco a poco {}'.format('Aprendiendo', 'Python'))
