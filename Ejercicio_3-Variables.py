@@ -52,6 +52,29 @@ print(f'Hola, {titulo} {nombres}. Estás apendiendo {mensaje} en 2024')
 
 print('----------------')
 
+nombre_completo = 'Mr. ' + nombre + ' '+apellido + '.'
+print(nombre_completo)
+
+nombre_completo = 'Mr. %s %s.' %(nombre, apellido)
+print(nombre_completo)
+
+nombre_completo = 'Mr. %s %s %s.' %(nombre, apellido, 'O')
+print(nombre_completo)
+
+nombre_completo = 'Mr. {} {}.'.format(nombre, apellido)
+print(nombre_completo)
+
+nombre_completo = 'Mr. {} {} {}.'.format(nombre, apellido, 'O')
+print(nombre_completo)
+
+nombre_completo = 'Mr. {nombre} {primer_apellido} {segundo_apellido}.'.format(
+    nombre = nombre,
+    primer_apellido = apellido,
+    segundo_apellido='R'
+)
+
+print('----------------')
+
 # TIPADO
 
 variable='Marco'
