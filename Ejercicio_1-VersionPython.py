@@ -1,4 +1,4 @@
-import sys # Importar librería
+import sys  # Importar librería
 
 print(sys.version)
 print(sys.version_info)

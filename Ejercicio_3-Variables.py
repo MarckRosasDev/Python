@@ -1,104 +1,101 @@
-miVariable1 = 'Python'
+miVariable1 = "Python"
 print(miVariable1)
-print(type(miVariable1)) # string
+print(type(miVariable1))  # string
 
-print('----------------')
+print("----------------")
 
-miVariable2= '2024'
+miVariable2 = "2024"
 print(miVariable2)
-print(type(miVariable2)) # string
+print(type(miVariable2))  # string
 
-print('----------------')
+print("----------------")
 
-miVariable3= 2024
+miVariable3 = 2024
 print(miVariable3)
-print(type(miVariable3)) # int
+print(type(miVariable3))  # int
 
-print('----------------')
+print("----------------")
 
-miVariable4= 3.333
+miVariable4 = 3.333
 print(miVariable4)
-print(type(miVariable4)) # float
+print(type(miVariable4))  # float
 
-print('----------------')
+print("----------------")
 
-miVariable5= True
+miVariable5 = True
 print(miVariable5)
-print(type(miVariable5)) # boolean
+print(type(miVariable5))  # boolean
 
-print('----------------')
+print("----------------")
 
-miVariable6= "Transistor" # Comillas dobles
+miVariable6 = "Transistor"  # Comillas dobles
 print(miVariable6)
-print(type(miVariable6)) # string
+print(type(miVariable6))  # string
 
-print('----------------')
+print("----------------")
 
 # Suma y concatenación de variables
-print(miVariable1+miVariable2) # Cadenas de texto (string)
-print(miVariable3+miVariable4) # Entero y flotante
-# print(miVariable1+miVariable3) #Indica error al no ser tipos compatibles 
+print(miVariable1 + miVariable2)  # Cadenas de texto (string)
+print(miVariable3 + miVariable4)  # Entero y flotante
+# print(miVariable1+miVariable3) #Indica error al no ser tipos compatibles
 
-print('----------------')
+print("----------------")
 
-nombre= 'Marco'
-print('Hola '+ nombre+'.')
+nombre = "Marco"
+print("Hola " + nombre + ".")
 
-print('----------------')
+print("----------------")
 
-nombres, apellido, titulo = 'Marco A', 'Olmos', 'Ing.'
-mensaje = 'Python'
-print(f'Hola, {titulo} {nombres}. Estás apendiendo {mensaje} en 2024')
+nombres, apellido, titulo = "Marco A", "Olmos", "Ing."
+mensaje = "Python"
+print(f"Hola, {titulo} {nombres}. Estás apendiendo {mensaje} en 2024")
 
-print('----------------')
+print("----------------")
 
-nombre_completo = 'Mr. ' + nombre + ' '+apellido + '.'
+nombre_completo = "Mr. " + nombre + " " + apellido + "."
 print(nombre_completo)
 
-nombre_completo = 'Mr. %s %s.' %(nombre, apellido)
+nombre_completo = "Mr. %s %s." % (nombre, apellido)
 print(nombre_completo)
 
-nombre_completo = 'Mr. %s %s %s.' %(nombre, apellido, 'O')
+nombre_completo = "Mr. %s %s %s." % (nombre, apellido, "O")
 print(nombre_completo)
 
-nombre_completo = 'Mr. {} {}.'.format(nombre, apellido)
+nombre_completo = "Mr. {} {}.".format(nombre, apellido)
 print(nombre_completo)
 
-nombre_completo = 'Mr. {} {} {}.'.format(nombre, apellido, 'O')
+nombre_completo = "Mr. {} {} {}.".format(nombre, apellido, "O")
 print(nombre_completo)
 
-nombre_completo = 'Mr. {nombre} {primer_apellido} {segundo_apellido}.'.format(
-    nombre = nombre,
-    primer_apellido = apellido,
-    segundo_apellido='R'
+nombre_completo = "Mr. {nombre} {primer_apellido} {segundo_apellido}.".format(
+    nombre=nombre, primer_apellido=apellido, segundo_apellido="R"
 )
 
-print('----------------')
+print("----------------")
 
 # TIPADO
 
-variable='Marco'
+variable = "Marco"
 print(variable)
 print(type(variable))
 
-variable=2024
+variable = 2024
 print(variable)
 print(type(variable))
 
-variable=38.97
+variable = 38.97
 print(variable)
 print(type(variable))
 
-variable= False
+variable = False
 print(variable)
 print(type(variable))
 
-variable='A'
+variable = "A"
 print(variable)
 print(type(variable))
 
-print('----------------')
+print("----------------")
 # Constantes
 ESTO_ES_UNA_CONSTANTE = 3.1416
 print(ESTO_ES_UNA_CONSTANTE)
-
