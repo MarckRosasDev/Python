@@ -8,6 +8,24 @@ falso = False
 
 print(type(verdadero))
 print(type(falso))
+
+print('Representación aritmética de True y False equivale a 1 y 0 respectivamente')
+print(True*10)
+print(True/10)
+print(True-10)
+print(True+10)
+print()
+print(False*10)
+print(False/10)
+print(False-10)
+print(False+10)
+print()
+print(True+False)
+print(True-False)
+print(True*False)
+#print(True/False)
+print(False/True)
+
 """
 Representación: Los valores booleanos se representan como True o False en el código.
 
