@@ -99,3 +99,11 @@ print("----------------")
 # Constantes
 ESTO_ES_UNA_CONSTANTE = 3.1416
 print(ESTO_ES_UNA_CONSTANTE)
+print("-----------------")
+# Múltiples variables
+nombre, apellido, titulo = "Marco", "Rosas", "Mr."
+
+print(nombre)
+print(apellido)
+print(titulo)
+print(titulo + " " + nombre + " " + apellido)
