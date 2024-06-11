@@ -14,7 +14,8 @@ if numero == 10:
     print("Número equivale a 10")
 print()
 
-# Anicación de if
+print('--- Anidación ---')
+# Anicación 1
 numero_1 = 20
 numero_2 = 30
 
@@ -22,6 +23,19 @@ if numero_1 == 20:
     print(f"Numero_1 equivale a {numero_1}")
     if numero_2 == 30:
         print(f"Numero_2 equivale a {numero_2}")
+print()
+
+# Anidacion 2
+nombre= 'Pepe'
+edad = 18
+
+if nombre == 'Pepe':
+    if edad >= 18:
+        print('Eres Pepe y ya puedes votar')
+    else:
+        print('Eres Pepe, pero no tienes edad para votar')
+else:
+    print('Tu no eres Pepe')
 print()
 
 # Evaluación de múltiples expresiones
@@ -54,3 +68,25 @@ elif calificacion <=6:
     print('Tu calificación es insuficiente, no aprobaste')
 else:
     print('Calificación fuera de rango')
+    
+print()
+
+letra = input("Ingresa una letra: ")
+#print(type(letra))
+if letra.lower() == 'a':
+    print('Esta vocal es la a')
+elif letra.lower() == 'e':
+    print('Esta vocal es la e')
+elif letra.lower() == 'i':
+    print('Esta vocal es la i')
+elif letra.lower() == 'o':
+    print('Esta vocal es la o')
+elif letra.lower() == 'u':
+    print('Esta vocal es la u')
+else:
+    print('Tu letra es una consonante,un número o una cadena de caracteres')
+print()
+print('--- pass ---')
+if True: 
+    pass # Sirve para utilizar en un bloque de código vacío, no finaliza el código
+    print('Continua el código...')
