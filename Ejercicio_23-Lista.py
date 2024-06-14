@@ -63,5 +63,9 @@ print(datos[:5])
 print()
 print(datos[-1])
 print(datos[-5:-1])
-
+print()
+print('--- Mutabilidad ---')
+print(datos)
+datos[0]='TRIAC'
+print(datos)
 
