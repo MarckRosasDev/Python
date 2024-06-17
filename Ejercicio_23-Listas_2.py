@@ -12,17 +12,16 @@ print(anidadas[0][0])  # Primer sublista, primer ítem de la misma
 print(anidadas[3][2])  # cuarta sublista, segundo ítem de la misma
 print()
 
-sum_lista=lista_1+lista_2 # Sumar dos listas
+sum_lista = lista_1 + lista_2  # Sumar dos listas
 print(sum_lista)
 print()
-lista_edad=[]
-while len(lista_edad)<5:
-    edad= int(input('Ingresa la edad: '))
-    lista_edad.append(edad) # Agregar un elemto a la lista
-print(f'Las edades son: {lista_edad}')
-
-
+lista_edad = []
+while len(lista_edad) < 5:
+    edad = int(input("Ingresa la edad: "))
+    lista_edad.append(edad)  # Agregar un elemto a la lista
+print(f"Las edades son: {lista_edad}")
 print()
+
 print("--- Métodos ---")
 print(lista_1)
 lista_1.append(10)  # Agregar elementos
@@ -68,12 +67,12 @@ lista_6.reverse()
 print(lista_6)
 print()
 
-lista_7 = ['Capacitor', 3.1416, 500,'Optoacoplador', 'Resistencia', 'Inductor']
+lista_7 = ["Capacitor", 3.1416, 500, "Optoacoplador", "Resistencia", "Inductor"]
 print(lista_7)
-lista_7[2]='Transistor' # Cambiar el valor de un dato por el índice
+lista_7[2] = "Transistor"  # Cambiar el valor de un dato por el índice
 print(lista_7)
-lista_7.pop() # Elimina el último elemento de la lista
+lista_7.pop()  # Elimina el último elemento de la lista
 print(lista_7)
 lista_7.remove(3.1416)
-lista_7.remove('Capacitor')
+lista_7.remove("Capacitor")
 print(lista_7)
