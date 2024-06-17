@@ -60,7 +60,7 @@ elif palabra_1[-3:] == palabra_2[-3:]:
 elif palabra_1[-2:] == palabra_2[-2:]:
     print("Riman un poco.")
 else:
-    print('No riman.')
+    print("No riman.")
 
 print("--- Programa 7 ---")
 # Es necesario crear un programa que permita obtener la calificación total de un curso.
@@ -69,3 +69,20 @@ print("--- Programa 7 ---")
 # Las calificaciones obtenidas por el alumno son:
 # Proyecto final: 6.5    Expocisiones: 8      Tareas: 7    Asistencia: 9
 
+porcentaje_proyecto_final = 50 / 100
+porcentaje_exposiciones = 25 / 100
+porcentaje_tareas = 15 / 100
+porcentaje_asistencia = 10 / 100
+
+calificacion_proyecto_final = 6.5
+calificacion_exposiciones = 8
+calificacion_tareas = 7
+calificacion_asistencia = 9
+
+ponderacion_proyecto_final = calificacion_proyecto_final * porcentaje_proyecto_final
+ponderacion_exposiciones = calificacion_exposiciones * porcentaje_exposiciones
+ponderacion_tareas = calificacion_tareas * porcentaje_tareas
+ponderacion_asistencia = calificacion_asistencia * porcentaje_asistencia
+
+calificacion_final=ponderacion_proyecto_final+ponderacion_exposiciones+ponderacion_tareas+ponderacion_asistencia
+print(f'La calificación del alumno es: {calificacion_final}')
