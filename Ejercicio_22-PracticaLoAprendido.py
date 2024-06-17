@@ -61,3 +61,11 @@ elif palabra_1[-2:] == palabra_2[-2:]:
     print("Riman un poco.")
 else:
     print('No riman.')
+
+print("--- Programa 7 ---")
+# Es necesario crear un programa que permita obtener la calificación total de un curso.
+# La calificación final se compone de los siguiente:
+# Proyecto final: 50%    Expocisiones: 25%    Tareas: 15%  Asistencia: 10%
+# Las calificaciones obtenidas por el alumno son:
+# Proyecto final: 6.5    Expocisiones: 8      Tareas: 7    Asistencia: 9
+
