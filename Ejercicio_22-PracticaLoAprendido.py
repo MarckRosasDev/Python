@@ -68,16 +68,25 @@ print("--- Programa 7 ---")
 # Proyecto final: 50%    Expocisiones: 25%    Tareas: 15%  Asistencia: 10%
 # Las calificaciones obtenidas por el alumno son:
 # Proyecto final: 6.5    Expocisiones: 8      Tareas: 7    Asistencia: 9
+# Extra: Ingresa las calificaciones por medio de la función input. 
 
 porcentaje_proyecto_final = 50 / 100
 porcentaje_exposiciones = 25 / 100
 porcentaje_tareas = 15 / 100
 porcentaje_asistencia = 10 / 100
 
+"""
 calificacion_proyecto_final = 6.5
 calificacion_exposiciones = 8
 calificacion_tareas = 7
 calificacion_asistencia = 9
+"""
+calificacion_proyecto_final = float(input('Ingresa la calificación del proyecto final: '))
+calificacion_exposiciones = float(input('Ingresa la calificación de las exposiciones: '))
+calificacion_tareas = float(input('Ingresa la calificación de las tareas: '))
+calificacion_asistencia = float(input('Ingresa la calificación de la asistencia: '))
+
+
 
 ponderacion_proyecto_final = calificacion_proyecto_final * porcentaje_proyecto_final
 ponderacion_exposiciones = calificacion_exposiciones * porcentaje_exposiciones
