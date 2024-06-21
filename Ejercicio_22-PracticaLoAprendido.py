@@ -95,3 +95,16 @@ ponderacion_asistencia = calificacion_asistencia * porcentaje_asistencia
 
 calificacion_final=ponderacion_proyecto_final+ponderacion_exposiciones+ponderacion_tareas+ponderacion_asistencia
 print(f'La calificación del alumno es: {calificacion_final}')
+print()
+
+print("--- Programa 8 ---")
+# Realiza un programa que sume todos los números enteros pares dele el número cero
+# hasta un número ingresado por el usuario por medio del teclado.
+
+limite = int(input('Ingresa el límite: '))
+suma = 0
+for numero in range(0, limite+1,2):
+    if numero % 2 ==0:
+        suma += numero
+
+print(f'La suma de los pares desde el 0 hasta {limite} es: {suma}') 
