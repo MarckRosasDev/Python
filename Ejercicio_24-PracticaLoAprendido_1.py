@@ -9,10 +9,6 @@ Codifica un programa que lea 2 números (entero o float) por teclado y permita e
 En caso de introducir una opción inválida, el programa informará de que no es correcta.
 """
 print('--- Programa 1 ---')
-
-
-
-
 while True:
     numero_1=float(input('Ingresa el primer número: '))
     numero_2=float(input('Ingresa el segundo número: '))
