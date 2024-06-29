@@ -78,19 +78,25 @@ print(Aragorn)
 print(Aragorn["atributos"])
 print(Aragorn["atributos"]["inteligencia"])
 print()
-fuerza_aragorn= Aragorn["atributos"]["fuerza"]
-print(f'La fuerza de Aragorn es: {fuerza_aragorn}')
+fuerza_aragorn = Aragorn["atributos"]["fuerza"]
+print(f"La fuerza de Aragorn es: {fuerza_aragorn}")
 print()
-atributos_aragorn=Aragorn.get("atributos") # función get()
-print(f'Los atributos de Aragorn son: {atributos_aragorn}')
-frase= 'La raza de Aragorn es: {raza}'.format(**Aragorn) # Usar str.format() para eliminar las llaves
+atributos_aragorn = Aragorn.get("atributos")  # función get()
+print(f"Los atributos de Aragorn son: {atributos_aragorn}")
+frase = "La raza de Aragorn es: {raza}".format(
+    **Aragorn
+)  # Usar str.format() para eliminar las llaves
 print(frase)
 print()
-sabiduria_aragorn= Aragorn.get('atributos').get('sabiduria')
-print(f'La sabiduría de Aragorn es: {sabiduria_aragorn}')
-sabiduria_aragorn= Aragorn.get('atributos',{}).get('sabiduria',0)
-print(f'La sabiduría de Aragorn es: {sabiduria_aragorn}')
-velocidad_aragorn= Aragorn.get('atributos',{}).get('velocidad',0) # Elemento no existente en el diccionario
+sabiduria_aragorn = Aragorn.get("atributos").get("sabiduria")
+print(f"La sabiduría de Aragorn es: {sabiduria_aragorn}")
+sabiduria_aragorn = Aragorn.get("atributos", {}).get("sabiduria", 0)
+print(f"La sabiduría de Aragorn es: {sabiduria_aragorn}")
+velocidad_aragorn = Aragorn.get("atributos", {}).get(
+    "velocidad", 0
+)  # Elemento no existente en el diccionario
 print(velocidad_aragorn)
-escudo_aragorn= Aragorn.get('escudo',{}).get('nivel', 'No existente') # Elemento no existente en el diccionario
+escudo_aragorn = Aragorn.get("escudo", {}).get(
+    "nivel", "No existente"
+)  # Elemento no existente en el diccionario
 print(escudo_aragorn)
