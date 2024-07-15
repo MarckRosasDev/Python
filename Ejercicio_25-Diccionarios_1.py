@@ -1,3 +1,5 @@
+# Colecciones desordenadas de pares clave-valor.
+# Se utilizan para almacenar datos con una asociación entre claves y valores.
 diccionario = {}
 print(type(diccionario))
 print(diccionario)
