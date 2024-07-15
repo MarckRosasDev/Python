@@ -89,9 +89,9 @@ seleccion_alemania = {
     27: "Jule Kalidou Koulibaly",
 }
 
-numero_jugador = int(input('Ingresa el número del jugador: '))
+numero_jugador = int(input("Ingresa el número del jugador: "))
 
 if numero_jugador in seleccion_alemania:
     print(seleccion_alemania[numero_jugador])
 else:
-    print('El número no se encuentra dentro del diccionario')
+    print("El número no se encuentra dentro del diccionario")
